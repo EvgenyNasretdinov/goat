@@ -156,6 +156,7 @@ export class LitEVMWalletClient extends EVMWalletClient {
             functionName,
             args,
             chain: this.viemWalletClient.chain,
+            value,
         });
 
         // Uses the viem wallet client to send the transaction
